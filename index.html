@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propuesta Profesional - We Launch</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0f172a',
+                        accent: '#3b82f6',
+                        secondary: '#64748b',
+                        surface: '#f8fafc',
+                        brand: {
+                            light: '#e0f2fe',
+                            DEFAULT: '#0284c7',
+                            dark: '#0c4a6e',
+                        }
+                    },
+                    fontFamily: {
+                        display: ['Outfit', 'sans-serif'],
+                        body: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #ffffff;
+            color: #1e293b;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(226, 232, 240, 0.8);
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #0f172a 0%, #3b82f6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .section-divider {
+            height: 1px;
+            background: linear-gradient(90deg, transparent, #e2e8f0, transparent);
+        }
+        .hover-lift {
+            transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        .hover-lift:hover {
+            transform: translateY(-4px);
+        }
+    </style>
+</head>
+<body class="font-body antialiased leading-relaxed">
+
+    <!-- Header Section -->
+    <header class="relative pt-20 pb-16 px-6 overflow-hidden bg-slate-50">
+        <div class="absolute top-0 right-0 -translate-y-1/2 translate-x-1/4 w-96 h-96 bg-blue-100 rounded-full blur-3xl opacity-50"></div>
+        <div class="absolute bottom-0 left-0 translate-y-1/2 -translate-x-1/4 w-64 h-64 bg-slate-200 rounded-full blur-3xl opacity-50"></div>
+        
+        <div class="max-w-5xl mx-auto relative z-10 text-center lg:text-left">
+            <div class="inline-block px-4 py-1.5 mb-6 text-sm font-semibold tracking-wider text-brand uppercase bg-brand-light rounded-full">
+                Propuesta de Servicios Profesionales
+            </div>
+            <h1 class="text-5xl md:text-7xl font-display font-extrabold text-primary mb-4 tracking-tight">
+                <span class="gradient-text">We Launch</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-secondary font-medium max-w-2xl mb-8">
+                Rodajes para filmación de video cursos de panadería.
+            </p>
+            <div class="flex flex-col md:flex-row items-center gap-6 text-sm font-medium text-secondary">
+                <div class="flex items-center gap-2">
+                    <svg class="w-5 h-5 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                    <span>Emisión: 5 de abril de 2026</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <svg class="w-5 h-5 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                    <span>Buenos Aires, Argentina</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-6 py-12 space-y-24">
+
+        <!-- Description Section -->
+        <section class="grid lg:grid-cols-12 gap-12 items-start">
+            <div class="lg:col-span-4 sticky top-12">
+                <h2 class="text-3xl font-display font-bold text-primary mb-4">Descripción del Servicio</h2>
+                <div class="w-12 h-1 bg-brand rounded-full"></div>
+            </div>
+            <div class="lg:col-span-8">
+                <div class="prose prose-slate prose-lg max-w-none text-slate-600">
+                    <p class="leading-relaxed">
+                        Se propone una <strong>cobertura audiovisual integral de alta fidelidad</strong>, especializada en la grabación de cursos de panadería bajo un esquema de producción multicámara. Este servicio está diseñado para capturar de manera simultánea la exposición teórica del instructor y los planos detalle esenciales (food styling, técnicas de amasado y texturas de productos), garantizando un estándar estético cinematográfico.
+                    </p>
+                    <p class="mt-4">
+                        El equipo humano aportará su expertise técnica y narrativa para asegurar la continuidad de las acciones y la calidad visual necesaria para plataformas de formación profesional. La entrega consiste exclusivamente en el material en crudo (raw footage) capturado durante las jornadas.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- Scope Section -->
+        <section>
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-display font-bold text-primary mb-4">Alcance Efectivo y Entregables</h2>
+                <p class="text-secondary max-w-xl mx-auto">Desglose detallado de recursos técnicos y humanos comprometidos para la excelencia del proyecto.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Item 1: Crew -->
+                <div class="glass-card rounded-3xl p-8 hover-lift shadow-sm">
+                    <div class="w-14 h-14 bg-blue-50 text-brand rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-display font-bold text-primary mb-2">ÍTEM 1: Crew Técnico</h3>
+                    <p class="text-sm text-secondary mb-6 font-medium">Servicio de Rodaje Profesional.</p>
+                    
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3">
+                            <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-brand shrink-0"></span>
+                            <span class="text-slate-600"><strong>Jornadas:</strong> 3 jornadas de filmación de hasta 8 horas efectivas cada una.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-brand shrink-0"></span>
+                            <span class="text-slate-600"><strong>Director:</strong> Supervisión general, ritmo y tiempos.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-brand shrink-0"></span>
+                            <span class="text-slate-600"><strong>Director de Fotografía:</strong> Diseño de iluminación y cámara principal.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-brand shrink-0"></span>
+                            <span class="text-slate-600"><strong>Asistente/Gaffer:</strong> Gestión de datos, foco e iluminación.</span>
+                        </li>
+                    </ul>
+                    <div class="mt-8 pt-6 border-t border-slate-100">
+                        <span class="text-3xl font-display font-bold text-primary">$ 1.200.000</span>
+                        <span class="text-secondary ml-2">/ Total Crew</span>
+                    </div>
+                </div>
+
+                <!-- Item 2: Equipment -->
+                <div class="bg-primary text-white rounded-3xl p-8 hover-lift shadow-xl relative overflow-hidden">
+                    <div class="absolute top-0 right-0 p-4 opacity-10">
+                        <svg class="w-32 h-32" fill="currentColor" viewBox="0 0 24 24"><path d="M23,18V6H19V5c0-1.1-0.9-2-2-2H7C5.9,3,5,3.9,5,5v1H1v12h4v1c0,1.1,0.9,2,2,2h10c1.1,0,2-0.9,2-2v-1H23z M7,5h10v1H7V5z M17,19H7v-1h10V19z M21,16H3V8h18V16z"/></svg>
+                    </div>
+                    <div class="w-14 h-14 bg-white/10 text-brand-light rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-display font-bold mb-2">ÍTEM 2: Paquete Audiovisual</h3>
+                    <p class="text-sm text-blue-300 mb-6 font-medium">Opcional - Estándar 4K Cinematográfico</p>
+                    
+                    <ul class="space-y-3 text-blue-100 text-sm">
+                        <li class="flex items-center gap-2">
+                            <svg class="w-4 h-4 text-brand-light" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            2x Cámaras 4k Mirrorless.
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <svg class="w-4 h-4 text-brand-light" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            Set de Ópticas / Lentes.
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <svg class="w-4 h-4 text-brand-light" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            Kit de Iluminación estilo TV.
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <svg class="w-4 h-4 text-brand-light" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            Sonido Corbatero Profesional
+                        </li>
+                    </ul>
+                    <div class="mt-8 pt-6 border-t border-white/10">
+                        <span class="text-3xl font-display font-bold">$ 412.300</span>
+                        <span class="text-blue-300 ml-2">/ Rental 3 Jornadas</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Deliverables Footer -->
+            <div class="mt-12 p-8 rounded-3xl bg-slate-50 border border-slate-200 flex flex-col md:flex-row items-center gap-6">
+                <div class="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center text-brand shrink-0">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                </div>
+                <div>
+                    <h4 class="font-bold text-primary">ENTREGABLES</h4>
+                    <p class="text-slate-600">Totalidad del material capturado (Raw Footage) descargado íntegramente al finalizar cada jornada de rodaje. El cliente deberá aportar un disco o acceso a la nube.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- Notes Section -->
+        <section class="bg-slate-50 rounded-[2.5rem] p-8 md:p-12">
+            <h2 class="text-3xl font-display font-bold text-primary mb-8">Condiciones Clarificatorias</h2>
+            <div class="grid md:grid-cols-2 gap-x-12 gap-y-6">
+                <div class="flex gap-4">
+                    <div class="text-brand font-bold">01</div>
+                    <p class="text-slate-600 text-sm"><strong>Provisión de Equipos:</strong> El Ítem 1 contempla únicamente mano de obra. Sin el Ítem 2, el cliente provee los equipos audiovisuales.</p>
+                </div>
+                <div class="flex gap-4">
+                    <div class="text-brand font-bold">02</div>
+                    <p class="text-slate-600 text-sm"><strong>Formato:</strong> No incluye edición, música ni color. Se requiere disco rígido externo in situ para el backup.</p>
+                </div>
+                <div class="flex gap-4">
+                    <div class="text-brand font-bold">03</div>
+                    <p class="text-slate-600 text-sm"><strong>Horas Extra:</strong> $25.000 por hora/técnico luego de las 8 horas pactadas.</p>
+                </div>
+                <div class="flex gap-4">
+                    <div class="text-brand font-bold">04</div>
+                    <p class="text-slate-600 text-sm"><strong>Logística:</strong> Traslado de equipo y catering durante el rodaje ya incluidos en la propuesta.</p>
+                </div>
+                <div class="flex gap-4">
+                    <div class="text-brand font-bold">05</div>
+                    <p class="text-slate-600 text-sm italic"><strong>Validez:</strong> 7 días corridos (Vencimiento: 12/04/26).</p>
+                </div>
+                <div class="flex gap-4">
+                    <div class="text-brand font-bold">06</div>
+                    <p class="text-slate-600 text-sm italic"><strong>Forma de pago:</strong> 50% anticipo, resto contraentrega de los crudos el día de rodaje (transferencia o efectivo).</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA / Signature Section -->
+        <section class="pb-20 text-center">
+            <div class="bg-gradient-to-br from-brand to-brand-dark p-12 rounded-[3rem] text-white shadow-2xl shadow-blue-200">
+                <h3 class="text-3xl font-display font-bold mb-6">¿Listo para comenzar el rodaje?</h3>
+                <p class="mb-10 text-blue-100 max-w-lg mx-auto">Esta propuesta busca elevar el estándar visual de tus cursos de panadería, enfocándonos en cada textura y detalle técnico.</p>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <a href="mailto:jeremiasiriarte@gmail.com?subject=Confirmar rodaje&body=Hola! Continuemos con el rodaje. Es momento de coordinar los días, horario y lugar de la filmación." class="px-8 py-4 bg-brand-dark/30 border border-white/20 text-white font-bold rounded-2xl hover:bg-white/10 transition-colors">
+                        Confirmar Propuesta
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script>
+        // Subtle reveal animation on scroll
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100');
+                    entry.target.classList.remove('translate-y-10');
+                    entry.target.classList.remove('opacity-0');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('section').forEach(section => {
+            section.classList.add('transition-all', 'duration-700', 'ease-out', 'opacity-0', 'translate-y-10');
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>
+
